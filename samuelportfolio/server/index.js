@@ -16,7 +16,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key-change-in-production';
+const JWT_SECRET = process.env.JWT_SECRET || 'YOUR_JWT_SECRET_HERE';
 
 // Middleware
 app.use(cors());
@@ -41,7 +41,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // MongoDB Connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/portfolio')
+mongoose.connect(process.env.MONGODB_URI || 'YOUR_MONGODB_URI_HERE')
   .then(async () => {
     console.log('MongoDB Connected');
     
@@ -49,9 +49,9 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/portfolio
     const adminExists = await Admin.countDocuments();
     if (adminExists === 0) {
       const salt = await bcrypt.genSalt(10);
-      const hashedPassword = await bcrypt.hash('SMHOS@2026Sam', salt);
+      const hashedPassword = await bcrypt.hash('YOUR_ADMIN_PASSWORD', salt);
       await Admin.create({ 
-        email: 'admin@devbigsam.site', 
+        email: 'YOUR_ADMIN_EMAIL@yourdomain.com', 
         password: hashedPassword 
       });
       console.log('Admin account created!');

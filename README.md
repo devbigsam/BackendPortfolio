@@ -51,13 +51,13 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://devbigsam.vercel.app/)
+[**Live Demo**](https://YOUR_DOMAIN.vercel.app/)
 
 **Admin Console:**  
-Access the admin dashboard at: [**/admin**](https://devbigsam.vercel.app/admin)  
+Access the admin dashboard at: [**/admin**](https://YOUR_DOMAIN.vercel.app/admin)  
 *(Login required - contact the developer for access)*
+
 ---
-### 🎯 Project Structure
 ```
 portfolio/
 ├── samuelportfolio/              # Main React Application
@@ -233,8 +233,8 @@ I specialize in building **bespoke portfolio websites** that showcase your skill
 
 Ready to create your dream portfolio website? **Contact me today** and let's discuss your project!
 
-📧 **Email**: admin@devbigsam.site  
-🌐 **Website**: [devbigsam.vercel.app](https://devbigsam.vercel.app)
+📧 **Email**: YOUR_EMAIL@yourdomain.com  
+🌐 **Website**: [YOUR_DOMAIN.vercel.app](https://YOUR_DOMAIN.vercel.app)
 
 Let's turn your vision into reality! 🚀
 
