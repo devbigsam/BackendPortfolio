@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: portfolio-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        value: your-secret-key-change-in-production
+      - key: ADMIN_EMAIL
+        value: admin@devbigsam.site
+      - key: ADMIN_PASSWORD
+        value: SMHOS@2026Sam
+      - key: PORT
+        value: 5000

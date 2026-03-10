@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@hcaptcha/react-hcaptcha": "^1.17.1",
+    "mongodb": "^7.1.0"
+  }
+}
