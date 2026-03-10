@@ -51,12 +51,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://YOUR_DOMAIN.vercel.app/)
-
-**Admin Console:**  
-Access the admin dashboard at: [**/admin**](https://YOUR_DOMAIN.vercel.app/admin)  
-*(Login required - contact the developer for access)*
-
+[**Live Demo**](https://devbigsam.site/)
 ---
 ```
 portfolio/
@@ -179,7 +174,7 @@ You will need to download **Git** and **Node** to run this project.
 2. After forking, open your terminal and run the following commands to clone the repo:
 
   ```bash
-  git clone https://github.com/devigsam/portfolio.git
+  git clone https://github.com/devbigsam/BackendPortfolio
   ```
 Navigate to the Project Directory 📂
 Once the repository is cloned, change your directory to the project folder:
@@ -201,7 +196,7 @@ npm run dev
 
 
 ## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -234,7 +229,7 @@ I specialize in building **bespoke portfolio websites** that showcase your skill
 Ready to create your dream portfolio website? **Contact me today** and let's discuss your project!
 
 📧 **Email**: YOUR_EMAIL@yourdomain.com  
-🌐 **Website**: [YOUR_DOMAIN.vercel.app](https://YOUR_DOMAIN.vercel.app)
+🌐 **Website**: [YOUR_DOMAIN](https://YOUR_DOMAIN.vercel.app)
 
 Let's turn your vision into reality! 🚀
 
